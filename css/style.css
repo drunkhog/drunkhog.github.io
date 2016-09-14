@@ -1,0 +1,36 @@
+.holder {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background: url('../img/door.jpg');
+  background-size: cover;
+  text-align: center;
+}
+.door {
+  position: absolute;
+  left:52px;
+  top:55px;
+  width: 200px;
+  height: 345px;
+  border-radius: 100px 100px 0px 0px;
+  background: rgba(100,100,100,0.6);
+}
+.bouncer {
+  width: 130px;
+  height: 280px;
+  background: url('../img/barbarian.png');
+  background-size: cover;
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+.bad-guy {
+  position: absolute;
+  right: -100px;
+  width: 120px;
+  height: 250px;
+  background: url('../img/badguy.png');
+  background-size: cover;
+  bottom: 0;
+}
